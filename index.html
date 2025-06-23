@@ -163,25 +163,45 @@
 
   <script>
     const productos = [
+      // Producto 1
       {
         nombre: 'Pasteles<br>Personalizados',
         imagen: 'https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1'
       },
+      // Producto 2
       {
-        nombre: 'Snacks<br>Artesanales',
+        nombre: 'Bocaditos<br>Artesanales',
         imagen: 'https://fridolin.com.bo/wp-content/uploads/2020/06/empanda-queso-frita-salado-fridolin-santacruz.jpg'
       },
+      // Producto 3
       {
-        nombre: 'Cupcakes<br>Decorados',
+        nombre: 'Cupcakes y<br>Muffins',
         imagen: 'https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg'
       },
+      // Producto 4
       {
         nombre: 'Desayunos de<br>Ensueño',
         imagen: 'https://eltrigal.com/previa/wp-content/uploads/2021/02/02022021-DSC_9100-1024x683.jpg'
       },
+      // Producto 5
       {
-        nombre: 'Postres',
-        imagen: 'https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg'
+        nombre: 'Reposteria<br>Temática',
+        imagen: 'https://demmler.de/media/9d/d5/f0/1684225450/_O2A5732.jpeg'
+      },
+      // Producto 6
+      {
+        nombre: 'Galletas<br>Decoradas',
+        imagen: 'https://www.pequerecetas.com/wp-content/uploads/2021/01/galletas-para-san-valentin.jpg'
+      },
+      // Producto 7
+      {
+        nombre: 'Crepes o<br>Postres de café',
+        imagen: 'https://recipesblob.oetker.es/assets/2df20fac362f4bc494e741b654962cf3/1272x764/oetker-27-07_17346jpg.webp'
+      },
+      // Producto 8
+      {
+        nombre: 'Vegano o<br>Sin gluten',
+        imagen: 'https://veganuary.com/wp-content/uploads/2019/09/vegan-carrot-cake-es.jpg'
       },
       // Agrega más productos si quieres
     ];
@@ -193,7 +213,7 @@
       item.className = 'rounded-lg self-start';
       item.innerHTML = `
       <img src="${producto.imagen}" class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition w-[200px] h-[200px] object-cover">
-      <h4 class="text-xl font-['Domine'] font-bold">${producto.nombre}</h4>
+      <h4 class="text-xl font-['Domine'] font-bold hover:scale-110 transition">${producto.nombre}</h4>
     `;
       grid.appendChild(item);
     });
