@@ -84,73 +84,7 @@
   <section id="productos" class="py-16 bg-white drop-shadow-[0_0_8px_black]">
     <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-['Croissant_One'] font-bold mb-10">Nuestros productos</h3>
-      <div class="grid md:grid-cols-4 gap-8">
-        <!-- <div class="h-80 w-auto object-contain bg-[url('https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1')] shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)] overflow-hidden mb-10">
-          </div> 
-          CAMBIAR MÁS ADELANTE-->
-        <!-- Producto 1 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Pasteles<br>Personalizados</h4>
-        </button>
-        <!-- Producto 2 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://fridolin.com.bo/wp-content/uploads/2020/06/empanda-queso-frita-salado-fridolin-santacruz.jpg"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Snacks<br>Artesanales</h4>
-        </button>
-
-        <!-- Producto 3 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Cupcakes<br>Decorados</h4>
-        </button>
-
-        <!-- Producto 4 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://eltrigal.com/previa/wp-content/uploads/2021/02/02022021-DSC_9100-1024x683.jpg"
-            class="mb-6 object-cover h-[200px] mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Desayunos de<br>Ensueño</h4>
-        </button>
-
-        <!-- Producto 5 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
-        </button>
-
-        <!-- Producto 6 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
-        </button>
-
-        <!-- Producto 7 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
-        </button>
-
-        <!-- Producto 8 -->
-        <button class="rounded-lg self-start">
-          <img
-            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
-            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
-          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
-        </button>
-      </div>
+      <div id="productos-grid" class="grid md:grid-cols-4 gap-8"></div>
     </div>
   </section>
 
@@ -226,6 +160,44 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const productos = [
+      {
+        nombre: 'Pasteles<br>Personalizados',
+        imagen: 'https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1'
+      },
+      {
+        nombre: 'Snacks<br>Artesanales',
+        imagen: 'https://fridolin.com.bo/wp-content/uploads/2020/06/empanda-queso-frita-salado-fridolin-santacruz.jpg'
+      },
+      {
+        nombre: 'Cupcakes<br>Decorados',
+        imagen: 'https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg'
+      },
+      {
+        nombre: 'Desayunos de<br>Ensueño',
+        imagen: 'https://eltrigal.com/previa/wp-content/uploads/2021/02/02022021-DSC_9100-1024x683.jpg'
+      },
+      {
+        nombre: 'Postres',
+        imagen: 'https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg'
+      },
+      // Agrega más productos si quieres
+    ];
+
+    const grid = document.getElementById('productos-grid');
+
+    productos.forEach(producto => {
+      const item = document.createElement('button');
+      item.className = 'rounded-lg self-start';
+      item.innerHTML = `
+      <img src="${producto.imagen}" class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition w-[200px] h-[200px] object-cover">
+      <h4 class="text-xl font-['Domine'] font-bold">${producto.nombre}</h4>
+    `;
+      grid.appendChild(item);
+    });
+  </script>
 </body>
 
 </html>
