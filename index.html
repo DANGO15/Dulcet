@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="https://pub-023c47e9dfb64a25bdd85c1c15374dea.r2.dev/DulcetRosaIcono.png" />
+  <link rel="shortcut icon" type="image/png"
+    href="https://pub-023c47e9dfb64a25bdd85c1c15374dea.r2.dev/DulcetRosaIcono.png" />
   <title>Dulcet - Postres y Bocaditos</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
@@ -41,9 +42,8 @@
     <div class="container mx-auto px-4 py-4">
       <div class="flex items-center justify-between">
         <div class="w-32 h-auto">
-          <img
-            src="https://pub-023c47e9dfb64a25bdd85c1c15374dea.r2.dev/DulcetRosa.png"
-            alt="Logo Dulcet" class=" object-contain h-8 w-auto" />
+          <img src="https://pub-023c47e9dfb64a25bdd85c1c15374dea.r2.dev/DulcetRosa.png" alt="Logo Dulcet"
+            class=" object-contain h-8 w-auto" />
         </div>
         <nav class="hidden md:flex gap-x-6">
           <a href="#inicio" class="text-gray-600 hover:text-pink-600 transition-colors">Inicio</a>
@@ -63,7 +63,7 @@
   <!-- Inicio -->
   <section id="inicio">
     <div class="bg-[url('https://img.freepik.com/foto-gratis/primer-plano-cupcakes-chispas-velas-forma-corazon_23-2148381133.jpg?semt=ais_hybrid&w=740')]
-        bg-contain bg-cover bg-no-repeat bg-[center_45%]">
+        bg-cover bg-no-repeat bg-[center_45%]">
       <section class="inset-0 backdrop-blur-sm bg-white/30 py-[185px]">
         <div class="max-w-7xl mx-auto text-center">
           <h2 class="text-5xl font-['Croissant_One'] font-bold text-[#c31644] drop-shadow-[0_0_8px_white] mb-3">
@@ -82,50 +82,74 @@
 
   <!-- Productos -->
   <section id="productos" class="py-16 bg-white drop-shadow-[0_0_8px_black]">
-    <div class="max-w-7xl mx-auto text-center">
+    <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-['Croissant_One'] font-bold mb-10">Nuestros productos</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Producto 1 -->
-        <button class="border rounded-lg p-6 shadow hover:shadow-lg hover:shadow-[#c31644]/50 transition">
-          <!-- <div class="h-80 w-auto object-contain bg-[url('https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1')] shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)] overflow-hidden mb-10">
+      <div class="grid md:grid-cols-4 gap-8">
+        <!-- <div class="h-80 w-auto object-contain bg-[url('https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1')] shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)] overflow-hidden mb-10">
           </div> 
           CAMBIAR MÁS ADELANTE-->
+        <!-- Producto 1 -->
+        <button class="rounded-lg self-start">
           <img
             src="https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1"
-            class="mb-10 mx-auto border rounded-lg">
-          <h4 class="text-xl font-['Domine'] font-bold mb-4">Pasteles Personalizados </h4>
-          <p class="mb-4">Ofrecemos pasteles diseñados exclusivamente para ti, adaptándonos a tu estilo, gusto y
-            ocasión. Cada pastel combina sabor y creatividad para hacer de tu celebración algo
-            inolvidable.</p>
-          <p class="mb-4 font-semibold"><br data-start="376" data-end="379">
-            <em data-start="379" data-end="426">“Tu historia, nuestro arte en cada rebanada.”</em>
-          </p>
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Pasteles<br>Personalizados</h4>
         </button>
         <!-- Producto 2 -->
-        <div class="border rounded-lg p-6 shadow hover:shadow-lg hover:shadow-[#c31644]/50 transition">
+        <button class="rounded-lg self-start">
           <img
             src="https://fridolin.com.bo/wp-content/uploads/2020/06/empanda-queso-frita-salado-fridolin-santacruz.jpg"
-            class="mb-10 mx-auto border rounded-lg">
-          <h4 class="text-xl font-['Domine'] font-bold mb-4">Bocaditos</h4>
-          <p class="mb-4">Deliciosas y variadas opciones de bocaditos perfectos para compartir en cualquier evento o
-            para consentirte en cualquier momento. Pequeñas joyas de sabor que hacen grandes momentos.</p>
-          <p class="mb-4 font-semibold"><br data-start="630" data-end="633">
-            <em data-start="633" data-end="673">“Pequeños placeres, grandes sonrisas.”</em>
-          </p>
-        </div>
-        
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Snacks<br>Artesanales</h4>
+        </button>
+
         <!-- Producto 3 -->
-        <div class="border rounded-lg p-6 shadow hover:shadow-lg hover:shadow-[#c31644]/50 transition">
+        <button class="rounded-lg self-start">
           <img
             src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
-            class="mb-10 mx-auto border rounded-lg">
-          <h4 class="text-xl font-['Domine'] font-bold mb-4">Postres</h4>
-          <p class="mb-4">Una amplia variedad de postres clásicos y modernos, preparados con ingredientes frescos y
-            mucho cariño, para cerrar tu día con dulzura y satisfacción.</p>
-          <p class="mb-4 font-semibold"><br data-start="844" data-end="847">
-            <em data-start="847" data-end="894">“El dulce final que siempre quieres repetir.”</em>
-          </p>
-        </div>
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Cupcakes<br>Decorados</h4>
+        </button>
+
+        <!-- Producto 4 -->
+        <button class="rounded-lg self-start">
+          <img
+            src="https://eltrigal.com/previa/wp-content/uploads/2021/02/02022021-DSC_9100-1024x683.jpg"
+            class="mb-6 object-cover h-[200px] mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Desayunos de<br>Ensueño</h4>
+        </button>
+
+        <!-- Producto 5 -->
+        <button class="rounded-lg self-start">
+          <img
+            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
+        </button>
+
+        <!-- Producto 6 -->
+        <button class="rounded-lg self-start">
+          <img
+            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
+        </button>
+
+        <!-- Producto 7 -->
+        <button class="rounded-lg self-start">
+          <img
+            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
+        </button>
+
+        <!-- Producto 8 -->
+        <button class="rounded-lg self-start">
+          <img
+            src="https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg"
+            class="mb-6 mx-auto border rounded-lg shadow hover:shadow-lg hover:shadow-[#ef7a71]/30 transition">
+          <h4 class="text-xl font-['Domine'] font-bold">Postres</h4>
+        </button>
       </div>
     </div>
   </section>
@@ -202,7 +226,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
