@@ -12,11 +12,35 @@
                 <a href="#beneficios" class="text-gray-600 hover:text-pink-600 transition-colors">Nosotros</a>
                 <a href="#contacto" class="text-gray-600 hover:text-pink-600 transition-colors">Contacto</a>
             </nav>
-            <button
+            <button onclick="document.getElementById('modal-login').showModal()"
                 class="bg-[#ef7a71] hover:bg-pink-700 text-white px-4 py-2 rounded-md flex items-center space-x-2 transition-colors">
                 <!-- <i data-lucide="phone" class="h-4 w-4"></i> -->
                 <span>Iniciar Sesión</span>
             </button>
+            <dialog id="modal-login" closedby="any"
+                class="m-auto w-[350px] max-w-[90vw] p-8 rounded-2xl border-2 border-[#ef7a71] shadow-lg fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <h2 class="text-2xl font-bold mb-2">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" /><path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" /></svg>
+                    Ingresar usuario</h2>
+                <p class="mb-4">${producto.modal.descripcion}</p>
+                <form method="dialog" class="flex flex-col gap-4">
+                    <input 
+                        type="email" 
+                        placeholder="Correo electrónico" 
+                        class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400"
+                        required
+                    />
+                    <input 
+                        type="password" 
+                        placeholder="Contraseña" 
+                        class="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400"
+                        required
+                    />
+                    <button
+                        class="bg-[#ef7a71] text-white px-4 py-2 rounded hover:bg-[#c31644] transition"
+                    >Cerrar</button>
+                </form>
+            </dialog>
         </div>
     </div>
 </header>
