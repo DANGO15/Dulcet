@@ -1,7 +1,7 @@
 export const productos = [
     {
         nombre: 'Pasteles<br>Personalizados',
-        imagen: 'https://i0.wp.com/bacidangelo-shop.com/wp-content/uploads/2023/06/IMG_5205.jpg?resize=560%2C560&ssl=1',
+        imagen: '../assets/images/pasteles-personalizados.jpg',
         modal: {
             titulo: 'Pasteles Personalizados',
             descripcion: 'Elige el diseño, sabor y decoración que prefieras. Perfectos para cumpleaños, aniversarios y ocasiones especiales.'
@@ -9,7 +9,7 @@ export const productos = [
     },
     {
         nombre: 'Bocaditos<br>Artesanales',
-        imagen: 'https://fridolin.com.bo/wp-content/uploads/2020/06/empanda-queso-frita-salado-fridolin-santacruz.jpg',
+        imagen: '../assets/images/bocaditos-artesanales.jpg',
         modal: {
             titulo: 'Bocaditos Artesanales',
             descripcion: 'Variedad de bocaditos dulces y salados, hechos a mano con ingredientes frescos y de calidad.'
@@ -17,7 +17,7 @@ export const productos = [
     },
     {
         nombre: 'Cupcakes y<br>Muffins',
-        imagen: 'https://lacannelladulces.pe/wp-content/uploads/2023/08/E6F57BC7-8B0A-4413-8E3D-B913B1F1D256_1_201_a.jpeg',
+        imagen: '../assets/images/cupcakes-muffins.jpg',
         modal: {
             titulo: 'Cupcakes y Muffins',
             descripcion: 'Deliciosos cupcakes y muffins en diferentes sabores y decoraciones para toda ocasión.'
@@ -25,7 +25,7 @@ export const productos = [
     },
     {
         nombre: 'Desayunos de<br>Ensueño',
-        imagen: 'https://eltrigal.com/previa/wp-content/uploads/2021/02/02022021-DSC_9100-1024x683.jpg',
+        imagen: '../assets/images/desayunos-ensueño.jpg',
         modal: {
             titulo: 'Desayunos de Ensueño',
             descripcion: 'Sorprende a alguien especial con un desayuno completo, variado y presentado con mucho cariño.'
@@ -33,7 +33,7 @@ export const productos = [
     },
     {
         nombre: 'Reposteria<br>Temática',
-        imagen: 'https://demmler.de/media/9d/d5/f0/1684225450/_O2A5732.jpeg',
+        imagen: '../assets/images/reposteria-temática.jpg',
         modal: {
             titulo: 'Repostería Temática',
             descripcion: 'Postres y dulces personalizados según la temática de tu evento o celebración.'
@@ -41,7 +41,7 @@ export const productos = [
     },
     {
         nombre: 'Galletas<br>Decoradas',
-        imagen: 'https://www.pequerecetas.com/wp-content/uploads/2021/01/galletas-para-san-valentin.jpg',
+        imagen: '../assets/images/galletas-decoradas.png',
         modal: {
             titulo: 'Galletas Decoradas',
             descripcion: 'Galletas artesanales decoradas a mano, ideales para regalar o compartir en fechas especiales.'
@@ -49,7 +49,7 @@ export const productos = [
     },
     {
         nombre: 'Crepes o<br>Postres de café',
-        imagen: 'https://recipesblob.oetker.es/assets/2df20fac362f4bc494e741b654962cf3/1272x764/oetker-27-07_17346jpg.webp',
+        imagen: '../assets/images/crepes-postrescafe.jpg',
         modal: {
             titulo: 'Crepes y Postres de Café',
             descripcion: 'Disfruta de crepes dulces y postres ideales para acompañar tu café favorito.'
@@ -57,7 +57,7 @@ export const productos = [
     },
     {
         nombre: 'Vegano o<br>Sin gluten',
-        imagen: 'https://veganuary.com/wp-content/uploads/2019/09/vegan-carrot-cake-es.jpg',
+        imagen: '../assets/images/vegano-singluten.jpg',
         modal: {
             titulo: 'Opciones Veganas o Sin Gluten',
             descripcion: 'Deliciosos postres aptos para dietas veganas o libres de gluten, sin perder el sabor.'
