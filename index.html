@@ -28,8 +28,8 @@
   <div id="header" class="sticky top-0 z-50"></div>
   <div id="inicio"></div>
   <div id="productos"></div>
-  <div id="beneficios"></div>
-  <div id="testimonios"></div>
+  <div id="nosotros"></div>
+  <div id="origen"></div>
   <div id="contacto"></div>
   <div id="footer"></div>
 
@@ -38,7 +38,7 @@
 
   <!-- Script para cargar los componentes HTML -->
   <script>
-    const sections = ["header", "inicio", "productos", "beneficios", "testimonios", "contacto", "footer"];
+    const sections = ["header", "inicio", "productos", "nosotros", "origen", "contacto", "footer"];
     sections.forEach(id => {
       fetch(`partials/${id}.html`)
         .then(res => res.text())
