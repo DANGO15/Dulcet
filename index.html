@@ -30,7 +30,7 @@
   <div id="productos"></div>
   <div id="nosotros"></div>
   <div id="origen"></div>
-  <div id="contacto"></div>
+  <div id="testimonios"></div>
   <div id="footer"></div>
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -38,7 +38,7 @@
 
   <!-- Script para cargar los componentes HTML -->
   <script>
-    const sections = ["header", "inicio", "productos", "nosotros", "origen", "contacto", "footer"];
+    const sections = ["header", "inicio", "productos", "nosotros", "origen", "testimonios", "footer"];
     sections.forEach(id => {
       fetch(`partials/${id}.html`)
         .then(res => res.text())
